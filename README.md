@@ -38,3 +38,13 @@ El valor -1 para finalizar.
 Salida esperada
 Cantidad de notas registradas.
 Promedio de las notas.
+
+Ejemplo 3: Menú de Cajero Automático
+Caso de uso: Un cajero automático muestra un menú con varias opciones.
+El menú debe repetirse hasta que el usuario seleccione la opción 4 (Salir).
+
+Entrada esperada
+Una opción del menú.
+Salida esperada
+Mostrar un mensaje según la opción elegida.
+Finalizar cuando el usuario seleccione la opción 4.
