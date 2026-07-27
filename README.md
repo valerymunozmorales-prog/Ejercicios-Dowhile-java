@@ -5,11 +5,11 @@ Después de ejecutar ese bloque, el programa evalúa una condición. Si la condi
 
 Sintaxis:
 
-```java
+java
 do {
     // Instrucciones
 } while (condición);
-```
+
 ¿Cómo funciona?
 
 El ciclo do-while sigue estos pasos:
@@ -21,10 +21,20 @@ El ciclo do-while sigue estos pasos:
 
 Ejercicios desarrollados
 
-En este repositorio se desarrollan cinco ejercicios utilizando el ciclo do-while en Java:
+En este repositorio se desarrollan cinco ejemplos utilizando el ciclo do-while en Java:
 
-1. Contar del 1 al 10.
-2. Mostrar la tabla de multiplicar de un número.
-3. Sumar números hasta que el usuario ingrese el valor 0.
-4. Solicitar una contraseña hasta que sea correcta.
-5. Calcular el promedio de varias notas ingresadas por el usuario.
+Ejemplo 1: Validación de Contraseña
+Caso de uso: Un sistema de acceso solicita una contraseña al usuario. Mientras la contraseña sea incorrecta, el sistema debe seguir pidiéndola. Cuando sea correcta, mostrará el mensaje "Acceso permitido".
+
+Registro de Notas
+Caso de uso
+
+Ejemplo 2: Un instructor necesita registrar las calificaciones de un aprendiz. El sistema debe solicitar notas hasta que el usuario ingrese -1,
+indicando que ya no desea registrar más notas.
+
+Entrada esperada
+Notas entre 0.0 y 5.0.
+El valor -1 para finalizar.
+Salida esperada
+Cantidad de notas registradas.
+Promedio de las notas.
