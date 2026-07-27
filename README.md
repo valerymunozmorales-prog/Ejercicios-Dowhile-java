@@ -43,6 +43,18 @@ Ejemplo 3: Menú de Cajero Automático
 Caso de uso: Un cajero automático muestra un menú con varias opciones.
 El menú debe repetirse hasta que el usuario seleccione la opción 4 (Salir).
 
+Ejercicio 4: Registro de Ventas
+Caso de uso: Una tienda desea registrar las ventas del día. El programa debe pedir el valor de cada venta y preguntar si desea registrar otra.
+
+Entrada esperada
+Valor de la venta.
+Respuesta:
+S = Registrar otra venta.
+N = Finalizar.
+Salida esperada
+Total de ventas registradas.
+Suma total del dinero vendido.
+
 Entrada esperada
 Una opción del menú.
 Salida esperada
