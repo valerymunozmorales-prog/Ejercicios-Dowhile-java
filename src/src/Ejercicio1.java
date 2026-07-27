@@ -14,4 +14,3 @@ public class Ejercicio1 {
         JOptionPane.showMessageDialog(null, "Acceso permitido");
     }
 }
-//el .equals es para comparar dos cadenas de texto y para comparar los numeros usamos ==
